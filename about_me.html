@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="up" class="head">
+        <a href="about_me.html" class="link"><img class="icon" src="images/icon.jpg" alt="Иконка домашней страницы"></a>
+        <a href="about_me.html" class="link"><p class="head_text">Обо мне</p></a>
+    </div>
+    <div class="information">
+        <div class="short_information">
+            <img src="images/photo.jpg" class="avatar" alt="Аватар">
+            <p class="text">Электронная почта: evelina.khabirova@yandex.ru</p>
+            <p class="text">Телефон: +7 937 285 77 86</p>
+            <form action="" class="feedback_form">
+                <div>
+                    <label for="name">Имя пользователя</label>
+                    <input type="text" id="name" placeholder="Имя и фамилия" required>
+                </div>
+                <div>
+                    <label for="email">Электронная почта</label>
+                    <input type="email" id="email" placeholder="Электронная почта" required>
+                </div>
+                <div>
+                    <fieldset class="enter_text">
+                        <legend>Сообщения</legend>
+                        <input type="text" placeholder="Введите сообщение" class="text">
+                        <input type="submit" value="Отправить" class="send">
+                    </fieldset>
+                </div>
+            </form>
+        </div>
+        <div class="long_information">
+            <p class="text long_text">Добрый день! Я верстальщик и делаю замечательные веб-страницы. <br>Нужен удобный сайт для тебя и твоих пользователей? Свяжись со мной.</p>
+            <p class="text long_text">Навыки:</p>
+            <ul class="text list">
+               <li>HTML</li>
+               <li>CSS</li> 
+            </ul>
+        </div>
+    </div>
+</body>
+<footer class="footer">
+    <a href="#up" class="link"><p class="footer_text">&uarr; Наверх</p></a>
+</footer>
+</html>
